@@ -23,7 +23,7 @@ Generations can be simply be done with
 
 `bin/mg5_aMC mg5_proc_card_HNL_Majorana_eenu_50GeV_1e-5Ve.dat`
 
-the generation done, the hepmc file is produced in the "events" directory. It has to be unzipped in a dedicated directory "/location/of/hepmcfiles/SampleName"
+the generation done, the hepmc file is produced in the "events" directory. It has to be unzipped in a dedicated directory  `/location/of/hepmcfiles/SampleName`
 
 For the fullsim, one needs for to get CLICPerformance repo
 
