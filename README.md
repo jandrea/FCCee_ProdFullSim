@@ -4,11 +4,19 @@ here is an example of HNL (long lived particle) production for CLD full simulati
 
 one needs first to generated HNL events.
 HNL hepmc : produced with madgraph, electrons channels following same production as the FCC HNL analysis 
- [MG Card](https://github.com/FCC-LLP/FCCAnalyses/blob/master/examples/FCCee/bsm/LLPs/DisplacedHNL/HNL_sample_creation/mg5_proc_card_HNL_Majorana_eenu_50GeV_1e-5Ve.dat)
-generations is made with madgraph (*https://launchpad.net/mg5amcnlo*) follow the madgraph instructions for installation.
+ 
+ `[MG Card](https://github.com/FCC-LLP/FCCAnalyses/blob/master/examples/FCCee/bsm/LLPs/DisplacedHNL/HNL_sample_creation/mg5_proc_card_HNL_Majorana_eenu_50GeV_1e-5Ve.dat)`
 
-The HNL model can be found at the 
-*https://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/HeavyN/SM_HeavyN_CKM_AllMasses_LO.tgz*
+generations is made with madgraph 
+
+`[MG5](https://launchpad.net/mg5amcnlo) 
+
+Follow the madgraph instructions for installation.
+
+The HNL model can be found at the link :
+
+[HNL MG5 model](https://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/HeavyN/SM_HeavyN_CKM_AllMasses_LO.tgz)
+
 the tgz file has to be unziped within the "model" directory of madgraph. 
 
 Generations can be simply be done with 
