@@ -15,7 +15,7 @@ The madgraph HNL model can be found at the link :
 
 [HNL MG5 model](https://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/HeavyN/SM_HeavyN_CKM_AllMasses_LO.tgz)
 
-The tgz file has to be unziped within the "model" directory of madgraph.  Generations can be simply be done with the following command :
+The tgz file has to be unziped within the "models" directory of madgraph.  Generations can be simply be done with the following command :
 
 `bin/mg5_aMC mg5_proc_card_HNL_Majorana_eenu_50GeV_1e-5Ve.dat`
 
